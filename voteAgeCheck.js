@@ -6,7 +6,7 @@ const canIVote = age => {
   		return 'You are ' + age + ' years old. Yes, you can vote!';
   	} else {
   		// If they're not, display that they aren't able to vote
-    	return 'You are only ' + age + ' years old. No, you cannote vote.';
+    	return 'You are only ' + age + ' years old. Sorry, you cannot vote yet.';
   	}
 }
 
